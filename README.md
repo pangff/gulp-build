@@ -11,8 +11,8 @@ gulp 完整项目构件流程 es6 css\js压缩 支持多bundle情况
 ```
 gulp watch
 ```
-* app中js会编译到lib目录生成main.x-bundle.js，x为自己的js业务名
-* app中js会编译到lib目录生成main.x-bundle.js。所以html请引用../lib/main-x-bundle.js，x为自己的js业务名
+* app中js会编译到lib目录生成main-x-bundle.js，x为自己的js业务名
+* app中js会编译到lib目录生成main-x-bundle.js。所以html请引用../lib/main-x-bundle.js，x为自己的js业务名
 
 ## 打包测试环境到dist
 ```
