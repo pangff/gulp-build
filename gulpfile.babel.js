@@ -172,7 +172,7 @@ gulp.task('browserify', function(done) {
 
 //完整构建流程
 gulp.task('build-dev', ['minify-lib', 'minify-css', 'minify-image','usemin','copy-minjs','copy-test','copy-gif','browserify']);
-gulp.task('build-pro', ['minify-lib', 'minify-css', 'minify-image','usemin','copy-minjs','copy-pro','copy-gif','browserify']);
+gulp.task('build-prod', ['minify-lib', 'minify-css', 'minify-image','usemin','copy-minjs','copy-pro','copy-gif','browserify']);
 
 
 //开发中使用
